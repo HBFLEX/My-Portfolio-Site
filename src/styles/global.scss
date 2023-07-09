@@ -1,0 +1,197 @@
+body {
+	margin: 0;
+	font-family: 'Inter', 'system-ui', sans-serif;
+	background: aliceblue;
+	overflow-x: hidden;
+}
+
+.hero{
+	margin-top: 4.5rem;
+	background: linear-gradient(to left, rgba(131, 80, 141, 0.829), rgb(3, 104, 122));
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 12px;
+}
+
+.hero-about{
+	color: whitesmoke;
+}
+
+.hero-about{
+	h1{
+		font-size: 2rem;
+		margin-bottom: 0;
+	}
+	.name{
+		color: rgb(245, 179, 58);
+		font-size: 3.5rem;
+		font-weight: 700;
+		font-family: 'Ubuntu', 'sans-serif'
+	}
+	.name:hover{
+		
+	}
+	.description{
+		word-wrap: break-word;
+		text-justify: inter-ideograph;
+	}
+	span{
+		font-weight: bold;
+		color:rgb(248, 172, 31)
+	}
+}
+
+.hero-profile{
+	img{
+		box-shadow: 4px 5px 20px rgba(113, 66, 122, 0.829);
+		border: 4px dashed rgba(153, 182, 199, 0.452);
+		transition: all 1s;
+	}
+	img:hover{
+		box-shadow: 5px 5px 8px rgba(143, 45, 99, 0.712);
+		filter: sepia(100%);
+		transform:rotateZ(4deg);
+		
+	}
+}
+
+.projectDescription{
+	transition: all 1s;
+}
+
+.projectDescription:hover{
+	background-color: rgb(247, 246, 246);
+}
+
+.projectsTitle{
+	color: rgb(46, 43, 43);
+	font-family: 'Archivo', sans-serif;
+}
+
+.skills{
+	background: linear-gradient(45deg, rgb(39, 34, 34),rgb(83, 54, 54));
+	place-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0;
+	h1{
+		color:whitesmoke;
+		font-family: 'Archivo', sans-serif;
+	}
+	.tech1{
+		background-color: rgb(74, 133, 113);
+		color: whitesmoke;
+		padding: 24px 18px;
+		border-radius: 4px;
+		text-align: center;
+		transition: all 1s;
+	}
+	.tech2{
+		background-color: rgb(24, 98, 133);
+		color: whitesmoke;
+		padding: 24px 18px;
+		border-radius: 4px;
+		text-align: center;
+		transition: all 1s;
+	}
+	.tech3{
+		background-color: rgb(119, 17, 145);
+		color: whitesmoke;
+		padding: 24px 18px;
+		border-radius: 4px;
+		text-align: center;
+		transition: all 1s;
+	}
+	.tech4{
+		background-color: rgb(211, 169, 52);
+		color: whitesmoke;
+		padding: 24px 18px;
+		border-radius: 4px;
+		text-align: center;
+		transition: all 1s;
+	}
+
+	.tech5{
+		background-color: rgb(194, 75, 20);
+		color: whitesmoke;
+		padding: 24px 18px;
+		border-radius: 4px;
+		text-align: center;
+		transition: all 1s;
+	}
+
+	.tech1, .tech2, .tech3, .tech4, .tech5{
+		box-shadow: 5px 5px 15px rgba(143, 45, 99, 0.466);
+	}
+
+	.tech1:hover{
+		box-shadow: 5px 5px 5px rgba(201, 61, 138, 0.712);
+		font-weight: bold;
+	}
+
+	.tech2:hover{
+		box-shadow: 5px 5px 5px rgba(201, 61, 138, 0.712);
+		font-weight: bold;
+	}
+
+	.tech3:hover{
+		box-shadow: 5px 5px 5px rgba(201, 61, 138, 0.712);
+		font-weight: bold;
+	}
+
+	.tech4:hover{
+		box-shadow: 5px 5px 5px rgba(201, 61, 138, 0.712);
+		font-weight: bold;
+	}
+
+	.tech5:hover{
+		box-shadow: 5px 5px 5px rgba(201, 61, 138, 0.712);
+		font-weight: bold;
+	}
+}
+
+.contact{
+	background: linear-gradient(90deg, rgba(18, 19, 17, 0.829), rgba(34, 33, 29, 0.733));
+	color: whitesmoke;
+
+	label{
+		color: rgb(199, 205, 209);
+	}
+	input, textarea{
+		background: whitesmoke;
+		font-size: 16px;
+	}
+	input[type=submit]{
+		background-color: aquamarine;
+		color: rgb(49, 45, 45);
+		padding: 12px 10px;
+		text-align: center;
+		border-radius: 5px;
+		border: none;
+	}
+	input[type=submit]:hover{
+		background-color: rgb(46, 185, 185);
+		color: rgb(26, 14, 14);
+	}
+}
+
+.btn-contact{
+	background-color:rgba(248, 244, 9, 0.822);
+	color: rgb(27, 22, 22);
+	font-size: 18px;
+	font-weight: 300;
+	padding: 15px 20px;
+	text-decoration: none;
+	border-radius: 50px;
+	box-shadow: 4px 5px 8px rgb(245, 152, 31);
+	transition: all 1s;
+}
+
+.btn-contact:hover{
+	background-color:rgb(184, 221, 20);
+	box-shadow: 4px 5px 8px rgb(255, 145, 0);
+}
+
+.about{
+	font-family: 'Archivo', sans-serif;
+}

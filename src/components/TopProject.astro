@@ -1,0 +1,19 @@
+---
+import ProjectLayout from '../layouts/ProjectLayout.astro'
+
+const projects = await Astro.glob('../pages/project/*.md')
+---
+
+<div class="mt-5" data-aos="zoom-in">
+    <h1 class="mb-0 text-center projectsTitle">Projects</h1>
+    <div class="row">
+        {
+            projects && projects.map((project) => (
+                <div class="col-md-4">
+                    <ProjectLayout project={project.frontmatter} />
+                </div>
+            ))
+        }
+    </div>
+    <p></p>
+</div>

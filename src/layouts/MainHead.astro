@@ -1,0 +1,55 @@
+---
+import '../styles/global.scss'
+const { title, description } = Astro.props
+import { SEO } from 'astro-seo'
+---
+
+<head>
+    <SEO
+      title="Happy Banda's Portfolio, Discover my projects and everything about me"
+      description="This is the official Happy Banda's (HBFL3X) portfolio site, discover more about me, what tech-stack i use, different skills i have and more.Python,Node Js, Mysql, Bootstrap5, Astro, Next Js, React, Preact, TailwindCss, Github, Git, MongoDB, ful-time, part-time, hire me."
+      openGraph={{
+        basic: {
+          title: "This is the official Happy Banda's (HBFL3X) portfolio site, discover more about me, what tech-stack i use, different skills i have and more.",
+          type: "text.blog",
+          image: "/assets/profile.jpg",
+        }
+      }}
+      twitter={{
+        creator: "@HB_FL3X"
+      }}
+      extend={{
+        // extending the default link tags
+        link: [{ rel: "icon", href: "/favicon.ico" }],
+        // extending the default meta tags
+        meta: [
+          {
+            name: "twitter:image",
+            content: "/assets/profile.jpg",
+          },
+          { name: "twitter:title", content: "Happy Banda's Portfolio, Discover my projects and everything about me" },
+          { name: "twitter:description", content: "This is the official Happy Banda's (HBFL3X) portfolio site, discover more about me, what tech-stack i use, different skills i have and more.Python,Node Js, Mysql, Bootstrap5, Astro, Next Js, React, Preact, TailwindCss, Github, Git, MongoDB, ful-time, part-time, hire me." },
+        ],
+      }}
+    />
+    <meta name="charset" content="UTF-8" />
+
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;900&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Happy Banda's Portfolio, Discover my projects and everything about me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>

@@ -1,0 +1,34 @@
+---
+import MainLayout from '../layouts/MainLayout.astro'
+import Header from '../components/Header.astro'
+import TopProjects from '../components/TopProject.astro'
+import Skills from '../components/Skills.astro'
+import AboutMe  from '../components/AboutMe.jsx'
+import Footer from 'component:Footer'
+---
+
+<MainLayout>
+	<div class="container-fluid hero">
+		<Header />
+	</div>
+
+	<!-- About Me Section -->
+	<div class="container" id="projects">
+		<TopProjects />
+	</div>
+
+	<!-- Skills Section -->
+	<div class="container-fluid skills" id="skills" data-aos="zoom-in">
+		<Skills />
+	</div>
+
+	<!-- Contact Me Section -->
+	<div class="container-fluid contact" id="about">
+		<AboutMe client:visible />
+	</div>
+
+	<!-- Footer Section -->
+	<div class="container-fluid" data-aos="fade-right">
+		<Footer />
+	</div>
+</MainLayout>

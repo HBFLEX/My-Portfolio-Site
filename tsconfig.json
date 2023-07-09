@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "component:*": ["src/components/*"],
+        "layout:*": ["src/layouts/*"]
+      },
+      "types": ["astro/env"]
+    },
+  }

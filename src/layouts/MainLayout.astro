@@ -1,0 +1,32 @@
+---
+import MainHead from './MainHead.astro'
+import Nav from '../components/Nav'
+const { title, description } = Astro.props
+---
+
+<html lang="en-us">
+	<MainHead title={title} description={description} />
+	<body>
+		<Nav />
+		<slot>No content here, go back</slot>
+		<script is:inline src="https://unpkg.com/aos@next/dist/aos.js">&lt;</script>
+			<script is:inline>
+			  AOS.init();
+			</script>
+	</body>
+</html>
+
+<!-- <script>
+	// am getting all menu links thru the ul tag with class nav-item first because, the
+	// links are coming from a javascript array which takes time to render them, so
+	// on load they are not available to grab them directly.
+	// Array.from(document.getElementsByClassName('nav-item')).forEach(elem => {
+	// 	const linkElement = elem.childNodes[0] // fetching a link element
+	// 	const linkHref = linkElement['href'] // fetching its href
+	// 	// i split the link href to get the pathname from the url
+	// 	if('/' + linkHref.split('/')[3].trim() === window.location.pathname || ('/' + linkHref.split('/')[3].trim()).substring(1, ('/' + linkHref.split('/')[3].trim()).length) ==){
+	// 		linkElement.style.color = "rgb(240, 172, 82)" // apply the color if match
+	// 	}
+	// 	console.log(('/' + linkHref.split('/')[3].trim()).substring(1, ('/' + linkHref.split('/')[3].trim()).length))
+	// })
+</script>  -->
