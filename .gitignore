@@ -1,5 +1,4 @@
 node_modules/
-public/assets/
 dist/
 *.tsbuildinfo
 .DS_Store
