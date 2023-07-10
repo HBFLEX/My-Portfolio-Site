@@ -2,7 +2,7 @@ function AboutMe(){
     return (
         <div className="text-center p-3">
             <h1 className="about">About Me</h1>
-            <p className="p-5">
+            <p className="p-5" data-aos="fade-left">
                 My name is Happy Banda a passionate self-taught full-stack developer. I love developing web applications,
                 mobile applications, desktop applications, video games, server programs and more. I have 2+
                 years experience in the industry. Am always learning new technologies while following tech-trends
