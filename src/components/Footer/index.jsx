@@ -8,7 +8,7 @@ function Footer() {
 				<div className='col-md-8'>
 					<p>
 						&copy; {new Date().getFullYear()}, Happy Banda.
-						<small className={Styles.byline}>developed using Astro + Bootstrap5 + CSS3 + JavaScript + preact + mark-down</small>
+						<small className={Styles.byline}>developed using Astro + Bootstrap5 + SCSS + JavaScript + preact + mark-down</small>
 					</p>
 				</div>
 				<div className='col-md-4'>

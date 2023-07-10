@@ -1,6 +1,6 @@
 function AboutMe(){
     return (
-        <div className="text-center p-3" data-aos="fade-in">
+        <div className="text-center p-3">
             <h1 className="about">About Me</h1>
             <p className="p-5">
                 My name is Happy Banda a passionate self-taught full-stack developer. I love developing web applications,
