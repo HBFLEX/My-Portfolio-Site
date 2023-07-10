@@ -4,7 +4,7 @@ import Styles from './styles.module.scss';
 function Footer() {
 	return (
 		<footer className={Styles.footer}>
-			<div className='row text-center'>
+			<div className='row text-center' data-aos="fade-right">
 				<div className='col-md-8'>
 					<p>
 						&copy; {new Date().getFullYear()}, Happy Banda.
